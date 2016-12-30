@@ -1,0 +1,168 @@
+.wrap {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+
+/*表头*/
+
+.header {
+	background: #f0efef;
+}
+
+.header .wrap {
+	position: relative;
+}
+
+.header .wrap h1 {
+	float: left;
+}
+
+.header .wrap h1 a {
+	display: block;
+	background: url(../img/logo.png) no-repeat 0 0;
+	width: 315px;
+	height: 90px;
+}
+
+.header .wrap p {
+	text-align: center;
+	font: 20px/30px "微软雅黑";
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	font-weight: bold;
+}
+
+.header p span {
+	margin: 25px;
+	cursor: pointer;
+	font-weight: normal;
+}
+
+.header p span:hover {
+	color: #2AABD2;
+}
+
+
+/*导航开始*/
+
+.nav {
+	position: relative;
+	z-index: 10;
+}
+
+.nav ul {
+	overflow: hidden;
+}
+
+.nav ul li {
+	float: left;
+	background: #f0efef;
+}
+
+.nav ul li a {
+	display: block;
+	font: 15px/23px "微软雅黑";
+	padding: 14px 43px;
+}
+
+.nav ul .on {
+	background: #958c86;
+}
+
+.nav ul .on a {
+	color: #fff;
+}
+
+
+/*选项头部开始*/
+
+.loactionTop h2 {
+	width: 195px;
+	font: bold 32px/40px "微软雅黑";
+	padding-bottom: 3px;
+	border-bottom: 5px solid #000;
+	margin: 0 auto;
+	cursor: pointer;
+}
+.loactionTop h2:hover{
+	color: #ccc;
+}
+
+.loactionTop ul {
+	width: 410px;
+	overflow: hidden;
+	margin: 10px auto;
+}
+
+.loactionTop ul li {
+	font: 14px/20px "微软雅黑";
+	float: left;
+	padding: 0 5px;
+	border-right: 1px solid #666;
+}
+
+.loactionTop ul li:last-child {
+	border-right: 0 none;
+}
+
+
+/*选项头部结束*/
+
+
+/*滑动部分开始*/
+
+.wrap .smallshow {
+	position: relative;
+}
+
+.wrap .smallshow ul {
+	overflow: hidden;
+	border-bottom: 1px solid #ccc;
+}
+
+.wrap .smallshow .on {
+	border-bottom: 3px solid orange;
+	padding-bottom: 49px;
+}
+
+.wrap .smallshow li {
+	float: left;
+	margin: 50px 2px;
+}
+
+.wrap .smallshow span {
+	display: inline-block;
+	width: 195px;
+	border: 2px solid orange;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.wrap .smallshow li img {
+	width: 195px;
+}
+
+.wrap .tuijian {
+	width: 1175px;
+	font: 18px/55px "微软雅黑";
+	background: url(../img/tuijian.png) no-repeat top right;
+}
+
+.wrap .tuijian ul {
+	overflow: hidden;
+	padding-left: 270px;
+}
+
+.wrap .tuijian ul li {
+	float: left;
+	margin-right: 20px;
+}
+
+.wrap .tuijian ul li a {
+	font: 14px/20px "微软雅黑";
+}
+
+/*滑动部分结束*/

@@ -1,0 +1,674 @@
+.hd {
+	width: 100%;
+	font: 16px/36px "微软雅黑";
+	background: #d0d3d6;
+	position: fixed;
+	top: 0;
+	z-index: 50;
+	display: none;
+}
+
+.hd ul {
+	width: 755px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.hd li {
+	float: left;
+}
+
+.hd li a {
+	padding: 0 15px;
+}
+
+
+/*轮播图开始*/
+
+.banner {
+	margin-top: -51px;
+	position: relative;
+	z-index: 1;
+}
+
+.banner .list {
+	height: 643px;
+	overflow: hidden;
+}
+
+.banner .list .on {
+	opacity: 1;
+	transition: 1.5s;
+}
+
+.banner .list li {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+}
+
+.banner .list a {
+	display: block;
+	height: 643px;
+}
+
+.banner .btn {
+	overflow: hidden;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 50px;
+}
+
+.banner .btn li {
+	width: 50px;
+	height: 10px;
+	background: #ccc;
+	float: left;
+	margin: 0 2px;
+}
+
+.banner .btn .on {
+	background: #666;
+}
+
+.banner .arrow {
+	display: block;
+	width: 30px;
+	font: bold 30px/60px '宋体';
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	background: rgba(0, 0, 0, .3);
+	color: #fff;
+	display: none;
+}
+
+.banner .left {
+	left: 100px;
+}
+
+.banner .right {
+	right: 100px;
+}
+
+.banner .arrow:hover {
+	background: rgba(0, 0, 0, .7);
+}
+
+.banner:hover .arrow {
+	display: block;
+}
+
+
+/*轮播图结束*/
+
+
+/*透明图片效果*/
+
+.series ul {
+	margin-top: 50px;
+	overflow: hidden;
+}
+
+.series li {
+	float: left;
+	margin: 0 2px;
+	background: #000;
+}
+
+.series li a {
+	display: block;
+	height: 400px;
+}
+
+
+/*独家外景开始*/
+
+.location {
+	margin-top: 50px;
+}
+
+.location .locationBottom {
+	overflow: hidden;
+}
+
+.location .locationBottom ul {
+	overflow: hidden;
+}
+
+.location .locationBottom ul li {
+	float: left;
+	height: 630px;
+	margin-right: 4px;
+}
+
+.location .locationBottom .showTit {
+	width: 310px;
+	height: 60px;
+	padding: 40px 0 0 40px;
+}
+
+.location .locationBottom img {
+	display: block;
+}
+
+.location .locationBottom a {
+	display: block;
+	width: 393px;
+	height: 300px;
+	background: #f0efef;
+}
+
+.location .locationBottom .showTit h3 {
+	font: bold 22px/30px "微软雅黑";
+}
+
+.location .locationBottom .showTit span {
+	font: 20px/30px "黑体";
+}
+
+.location .locationBottom a p {
+	font: 14px/20px "微软雅黑";
+	color: #7a7a7a;
+	padding: 0 40px;
+}
+
+.location .locationBottom .showhd {
+	padding: 40px 0 0 40px;
+	text-align: right;
+	width: 330px;
+	height: 60px;
+}
+
+
+/*独家外景结束*/
+
+
+/*乐品美学馆开始*/
+
+.esthetics {
+	margin-top: 50px;
+	overflow: hidden;
+}
+
+.esthetics .bigshow {
+	height: 390px;
+}
+
+.esthetics .bigshow ul {
+	position: relative;
+	height: 390px;
+}
+
+.esthetics .bigshow .on {
+	display: block;
+}
+
+.esthetics .bigshow li {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.esthetics .bigshow a {
+	display: block;
+	height: 390px;
+}
+
+.esthetics .bigshow a img {
+	height: 390px;
+}
+
+
+/*乐品美学馆结束*/
+
+
+/*维纳荣耀馆开始*/
+
+.esthetics .bigshow1 {
+	height: 390px;
+}
+
+.esthetics .bigshow1 ul {
+	position: relative;
+	height: 390px;
+}
+
+.esthetics .bigshow1 .on {
+	display: block;
+}
+
+.esthetics .bigshow1 li {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.esthetics .bigshow1 a {
+	display: block;
+	height: 390px;
+}
+
+.esthetics .bigshow1 a img {
+	height: 390px;
+}
+
+.wrap .smallshow1 {
+	position: relative;
+}
+
+.wrap .smallshow1 ul {
+	overflow: hidden;
+	border-bottom: 1px solid #ccc;
+}
+
+.wrap .smallshow1 .on {
+	border-bottom: 3px solid orange;
+	padding-bottom: 49px;
+}
+
+.wrap .smallshow1 li {
+	float: left;
+	margin: 50px 2px;
+}
+
+.wrap .smallshow1 span {
+	display: inline-block;
+	width: 195px;
+	border: 2px solid orange;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.wrap .smallshow1 li img {
+	width: 195px;
+}
+
+
+/*维纳荣耀馆结束*/
+
+
+/*最新客片欣赏开始*/
+
+.pic .wrap {
+	overflow: hidden;
+}
+
+.pic .images {
+	position: relative;
+}
+
+.pic .images li {
+	float: left;
+	margin: 0 10px 10px 0;
+	position: relative;
+	overflow: hidden;
+}
+
+.pic .images li:nth-child(3) {
+	position: absolute;
+	left: 391px;
+	top: 250px;
+}
+
+.pic .images a {
+	display: block;
+}
+
+.pic .images img {
+	display: block;
+}
+
+.pic .images .box {
+	display: block;
+	width: 335px;
+	height: 110px;
+	background: rgba(25, 34, 35, 0.85) url(../img/flush.png) no-repeat 250px center;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: -335px;
+}
+
+.pic .images .box p {
+	text-indent: 10px;
+}
+
+.pic .images .box .tit {
+	font: 24px "微软雅黑";
+	color: #fff;
+	padding-top: 13px;
+	cursor: pointer;
+}
+
+.pic .images .box .lomo {
+	font: 18px "微软雅黑";
+	color: #fff;
+	cursor: pointer;
+}
+
+.pic .images .box .more {
+	font: 18px "微软雅黑";
+	color: rgb(0, 186, 255);
+	cursor: pointer;
+}
+
+
+/*最新客片欣赏结束*/
+
+
+/*三亚航拍开始*/
+
+.travelShot {
+	margin-top: 50px;
+}
+
+.travelShot .bannerBody a {
+	height: 576px;
+	display: block;
+	background: url(../img/travel.jpg) no-repeat center 0;
+}
+
+.travelShot .travel {
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+.travelShot .travel li {
+	float: left;
+	margin: 0 3px;
+	transition: .3s;
+}
+
+.travelShot .travel li:hover {
+	opacity: 0.6;
+}
+
+.travelShot .travel li img {
+	display: block;
+}
+
+
+/*三亚航拍结束*/
+
+
+/*最新新闻动态开始*/
+
+.new {
+	margin-top: 50px;
+}
+
+.new .con .press {
+	overflow: hidden;
+}
+
+.new .con .press li {
+	width: 552px;
+	height: 110px;
+	float: left;
+	margin: 0 20px 20px 0;
+	line-height: 25px;
+}
+
+.new .con .press li img {
+	float: left;
+	width: 106px;
+	height: 110px;
+	cursor: pointer;
+}
+
+.new .con .press li .container {
+	float: left;
+	width: 425px;
+	margin-left: 15px;
+}
+
+.new .con .press li .container h3 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #4d4d4d;
+	cursor: pointer;
+}
+
+.new .con .press li .container span {
+	margin-right: 30px;
+	padding-left: 25px;
+	font-size: 14px;
+	background: url(../img/allbgs.png) no-repeat 0 -23px;
+}
+
+.new .con .press li .container .btn01 {
+	background-position-y: 0px;
+}
+
+.new .con .press li .container .btn02 {
+	background-position-y: -50px;
+}
+
+
+/*最新新闻动态结束*/
+
+
+/*旗下开始*/
+
+.offer {
+	margin-top: 50px;
+	cursor: pointer;
+}
+
+.offercon {
+	width: 1200px;
+	height: 67px;
+	background: url(../img/offset2.png) no-repeat top left;
+	cursor: pointer;
+}
+
+.offerbottom ul {
+	overflow: hidden;
+}
+
+.offerbottom ul li {
+	float: left;
+	width: 293px;
+	margin-right: 5px;
+}
+
+.offerbottom ul li img {
+	display: block;
+}
+
+.offerbottom ul li img:hover {
+	opacity: 0.4;
+}
+
+.offerbottom ul li a span {
+	display: block;
+	padding-top: 30px;
+	background: #efefef;
+	padding-bottom: 15px;
+}
+
+
+/*旗下结束*/
+
+.register {
+	margin-top: 50px;
+	height: 174px;
+	padding: 20px;
+	background: #f0efef url(../img/zx_bg.png) no-repeat top center;
+}
+
+.register .showtime {
+	width: 60%;
+	height: 120px;
+	float: left;
+	margin-top: 70px;
+	margin-left: 500px;
+	font: 24px/40px "微软雅黑";
+	position: relative;
+}
+
+.register input {
+	outline: 0 none;
+	font: 16px/20px "微软雅黑";
+	padding: 3px 0;
+	text-indent: 10px;
+}
+
+.register .ts {
+	font: 14px/20px "微软雅黑";
+	margin-left: 5px;
+}
+
+.register .showtime a {
+	display: inline-block;
+	width: 80px;
+	height: 40px;
+	background: skyblue;
+	color: #fff;
+	text-align: center;
+	
+}
+
+.backTo {
+	width: 150px;
+	height: 150px;
+	background: url(../img/top.gif) no-repeat center 0;
+	cursor: pointer;
+	position: fixed;
+	bottom: 50px;
+	right: -30px;
+}
+
+.floor {
+	position: fixed;
+	bottom: 50px;
+	left: 0;
+	display: none;
+}
+
+.floor ul li a {
+	display: inline-block;
+	width: 50px;
+	background: #918888;
+	text-align: center;
+	color: #fff;
+	font: 14px/30px"微软雅黑";
+	border: 1px solid #b1aaaa;
+}
+
+.floor ul .active a {
+	background-color: red;
+}
+
+.foot {
+	background: #26282b;
+}
+
+.site {
+	overflow: hidden;
+	position: relative;
+}
+
+.site h2 {
+	width: 860px;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 595px;
+	margin: 40px 0;
+	background: url(../img/bottom_left_tit.png) no-repeat top left;
+}
+
+.site ul {
+	width: 825px;
+	float: left;
+}
+
+.site .show1 li {
+	float: left;
+	font: 18px/20px "微软雅黑";
+	border-bottom: 1px solid #4a4d51;
+	margin-right: 45px;
+	margin-bottom: 10px;
+	padding: 5px 5px 5px 0;
+}
+
+.site ul li i {
+	text-align: right;
+}
+
+.site ul li span {
+	display: inline-block;
+	text-align: left;
+	width: 120px;
+}
+
+.site .about {
+	float: left;
+}
+
+.site .about span:first-child {
+	display: inline-block;
+	width: 160px;
+	height: 200px;
+	background: url(../img/bottom_right_erweima01.png) no-repeat scroll top left;
+}
+
+.site .about span:nth-child(2) {
+	display: inline-block;
+	width: 160px;
+	height: 200px;
+	background: url(../img/bottom_right_erweima02.png) no-repeat scroll top left;
+}
+
+.site .pic1 {
+	overflow: hidden;
+	position: absolute;
+	top: 30px;
+	left: 55%;
+}
+
+.site .pic1 li {
+	float: left;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #ccc;
+	margin: 0 10px;
+	cursor: pointer;
+}
+
+.site .pic1 li:hover {
+	transition: .8s;
+	background: pink;
+}
+
+.site .pic1 img {
+	width: 40px;
+	height: 40px;
+}
+
+.footer {
+	height: 200px;
+	overflow: hidden;
+	background: #313439;
+}
+
+.footer img {
+	padding-top: 20px;
+	float: left;
+}
+
+.footer p {
+	color: #aba9a9;
+	width: 940px;
+	float: left;
+	padding: 20px;
+}
